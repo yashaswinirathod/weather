@@ -1,0 +1,34 @@
+Steps to create weather app:
+Step 1: Get Access to a Suitable Weather API
+In this step, you’ll select a suitable weather API for your project, you’ll gain access to your personal API key, 
+and you’ll learn howto request information from the API.You’ll also understand the shape and content of the data 
+that you get as a response from a call to that weather API.
+
+Step 2: Handle Secrets in Your Code
+In this step, you’ll finish setting up your project structure, including most of the files you’ll use. You’ll also
+add your API key to a configuration file and write code to import it into your main script. As a measure to avoid
+accidentally pushing the API key to version control, you’ll make a .gitignore file.In short, by the end of this step,
+you’ll be all set up to start writing the main logic of your Python weather app.
+Create Your Project Folder Structure
+As mentioned at the beginning of this tutorial, you won’t need any external packages for this CLI project. All you’ll
+need is an installation of Python. Confirm that you have Python 3.6 or above because you’ll use Python f-strings for 
+string formatting later in the tutorial. Python started supporting this formatting technique from version 3.6 onward.
+Once you’ve installed a modern Python version on your system, you’re ready to select your operating system below and 
+set up your project folder structure:
+
+Step 3: Create a CLI for Your Python Weather App
+In this step, you’ll write a command-line input parser that takes user-provided information for a city and an optional 
+parameter about what temperature scale to use. 
+To build this functionality, you’ll work with Python’s argparse module.Set Up an Argument Parser
+Start by remembering what information you decided to collect from your users:City name
+Temperature scale, with a default value of Celsius
+To collect these two values through the command-line interface and use them in your Python weather app, you’ll work 
+with Python’s built-in argparse module. The code you’ll add will not display the user input yet, but it’ll collect it:
+
+Step 4: Get the Weather Information
+How’s the weather outside? Is it still raining? If you’re lucky enough to have a window close by, you could just take a 
+look. But any real-life windowin your house is farther away thanyour next terminal window, so it’s time to fetch the weather 
+information from that closest window by using your Python script.
+
+In this step, you’ll concatenate the user input into a valid URL that you’ll use to send API requests to OpenWeather’s API.
+You’ll also encapsulate all the necessary code logic into public and non-public functions to follow best practices and add exception handling so that your users won’t run into unexpected errors.
